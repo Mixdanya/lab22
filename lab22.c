@@ -92,7 +92,7 @@ double calc_s(double x)
     return t + pow(t, 3) / 3 + pow(t, 5) / 5 + pow(t, 7) / 7;
 }
 
-TFunc select_function(void)
+TFunc select_function()
 {
     int choice;
     printf("Выберите функцию: 1 - Y(x), 2 - V(x), 3 - S(x): ");
